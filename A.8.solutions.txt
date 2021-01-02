@@ -1,0 +1,53 @@
+1	#take the number 1 from the user
+2	number_str = input("Enter the number 1:")
+3	
+4	#cast into an integer
+5	number_1 = int(number_str)
+6	
+7	#take the number_2 from the user
+8	number_str = input("Enter the number 2:")
+9	
+10	#cast into an integer
+11	number_2 = int(number_str)
+12	
+13	#add the numbers
+14	add_x = number_1 + number_2
+15	
+16	#print the addition
+17	print("Sum of number 1 and number 2 :" , add_x)
+18	
+19	#subtract the numbers
+20	sub_x = number_1 - number_2
+21	
+22	#print the subtraction
+23	print("Sub of number 1 and number 2 :" , sub_x)
+24	
+25	#multiply the numbers
+26	multiply_x = number_1 * number_2
+27	
+28	#print the multiplication
+29	print("Multiplication of number 1 and number 2 :" , multiply_x)
+30	
+31	#divide the numbers
+32	div_x = number_1 / number_2
+33	
+34	#print the division
+35	print("Division of number 1 and number 2 :" , div_x)
+36	
+37	#Divide the numbers and show remainder
+38	remainder_x = number_1 % number_2
+39	
+40	#print the Remainder
+41	print("Remainder of number 1 and number 2 :" , remainder_x)
+42	
+43	#Exponentation of the numbers
+44	exp_x = number_1 ** number_2
+45	
+46	#print the exponent
+47	print("Exponent of number 1 and number 2 :" , exp_x)
+48	
+49	#Floor Division of the numbers 
+50	quotient_x = number_1 // number_2
+51	
+52	#print the Quotient
+53	print("Quotient of number 1 and number 2 :" , quotient_x)
