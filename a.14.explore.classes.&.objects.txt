@@ -1,0 +1,39 @@
+#Code Begin
+#Defining the class for temple
+class Temple:
+    
+    def __init__(self, name, dedicated_to, location):
+        self.name = name
+        self.dedicated_to = dedicated_to
+        self.location = location
+        
+    def getDetails(self):
+        print("Name : " + self.name)
+        print("Dedicated to : " + self.dedicated_to)
+        print("Location : " + self.location)
+
+   
+#Creating an instance
+Temple_Tirumala_Venkateshwara = Temple("Tirumala Venkateshwara Temple", "Venketeshwara", "Tirumala,Tirupati,India")
+Temple_Tirumala_Venkateshwara.getDetails()
+
+#Instance 2
+Temple_Jagganath = Temple("Shree Jagganath Temple", "Jagannath", "Puri, Odisha, India")
+Temple_Jagganath.getDetails()
+
+#Instance 3
+Temple_Brihadishvara = Temple("Brihadishvara Temple", "Shiva", "Thanjavur, Tamil Nadu, India")
+Temple_Brihadishvara.getDetails()
+
+#Instance 4
+Temple_Karya_Siddhi = Temple("Karya Siddhi Hanuman Temple", "Hanuman", "Dallas, TX, United States")
+Temple_Karya_Siddhi.getDetails()
+
+#Instance 5
+Temple_Sai_Durga = Temple("Sai Durga Shiva Vishnu temple", "Shiva", "Houston, Texas, United States")
+Temple_Sai_Durga.getDetails()
+
+#Instance 6
+Temple_Pashupatinath = Temple("Pashupatinath Temple", "Shiva", "Guashala, Kathmandu, Nepal")
+Temple_Pashupatinath.getDetails()
+#End Code
